@@ -1,0 +1,10 @@
+{
+    "name": "scene",
+    "entities": [
+        {
+            "script": {
+                "path": "gamecontroller"
+            }
+        }
+    ]
+}
