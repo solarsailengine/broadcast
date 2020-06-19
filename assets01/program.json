@@ -1,10 +1,6 @@
 {
-    "name": "scene",
-    "entities": [
-        {
-            "script": {
-                "path": "gamecontroller"
-            }
-        }
-    ]
+	"script": "program.lua",
+	"scenes": [
+		"scene.json"
+	]
 }
