@@ -1,10 +1,10 @@
 local script = {}
 
-function script:onbroadcast(context, buffer)
+function script:onmessage(buffer)
 	log(buffer)
 end
 
-function script:onkeyboard(context, buffer)
+function script:onkeyboard(buffer)
 	broadcast(buffer)
 end
 
