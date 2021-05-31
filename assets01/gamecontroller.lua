@@ -1,4 +1,4 @@
-local script = {}
+local script = require('scriptcomponent'):derive()
 
 function script:onmessage(buffer)
 	log(buffer)
